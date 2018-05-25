@@ -1,0 +1,84 @@
+body {
+	background-color: white;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-size: 15pt;
+}	
+
+h1 {
+	color: white;
+	background-color: #0066cc;
+	text-indent: 20px;
+	font-style: bold;
+	font-size: 17pt;
+	letter-spacing: 5px;
+	text-align: left;
+	top:10px;
+}
+
+h2 {
+	color: black;
+	background-color: #99ccff;
+	text-indent: 15px;
+	font-style: bold;
+	font-size: 12pt;
+	text-align: left;
+}
+
+a {
+	color: blue;
+	font-size: 15pt;
+	font-style: bold;
+	text-align: center;
+	text-decoration: none;
+	font-variant: small-caps;
+}
+
+a.visited {
+	color: blue;
+	font-style: bold;
+	text-align: center;
+	text-decoration: none;
+	font-variant: small-caps;
+}
+
+
+a:hover {
+	color: red;
+	/*font-style: italic;*/
+	font-style: bold;
+}
+
+
+p {
+	font-style: bold;
+	font-size: 11pt;
+	font-family: sans-serif;
+	text-align: center;
+	text-indent: 20pt;
+}
+
+div.box {
+	position:absolute;
+	top:200px;
+	left:50px;
+	line-height: 25px;
+	letter-spacing: 3px;
+	/*font-style: italic;*/
+}
+
+div.box2 {
+	position:absolute;
+	top:25px;
+	right:25px;
+}
+
+div.box3{
+	position:absolute;
+	top:45px;
+	right:20px;
+	width:300px;
+	line-height: 15px;
+	letter-spacing: 2px;
+	/*font-style: italic;*/
+}
