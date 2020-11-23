@@ -34,7 +34,7 @@ a.nav {
 
 
 a {
-	color: rgb(10, 10, 100);
+	color: white; 
 	font-style: bold;
 	font-variant: small-caps;
 }
@@ -68,7 +68,7 @@ a:hover {
 	margin-left: 15%;
 	margin-right: 15%;
 	margin-bottom: 5%;
-	background-color: rgb(40, 40, 40, 0.15);
+	background-color: rgb(40, 40, 40, 0.25);
 }
 
 
