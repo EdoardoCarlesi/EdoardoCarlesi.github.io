@@ -4,11 +4,306 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <title>Edoardo Carlesi</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=osefin+Sans:wght@300&display=swap">
 <link rel="stylesheet" type="text/css" href="style/style.css"/>
 </head>
-<frameset cols="*,700,*" frameborder="no" name="index">
-<frame src="left.html" scrolling="no" noresize>
-<frame src="home_frame.html">
-<frame src="right.html" scrolling="no" noresize>
-</frameset>
+
+<body>
+	<br><br>
+		<div class="paragraphs">
+
+		<div class="bar" id="navbar">
+		<table>
+			<tr>
+				<th><a href="#aboutme" class="nav"> About Me </a></th> 
+				<th><a href="#projects" class="nav"> Projects </a></th> 
+				<th><a href="#resources" class="nav"> Resources </a></th> 
+				<th><a href="#podcast" class="nav"> Podcast </a></th> 
+				<th><a href="#extra" class="nav"> Extra </a></th> 
+				<th><a href="#contacts" class="nav">Contact</a></th> 
+			</tr>
+		</table>
+		</div>
+	
+
+		<div class="sidefig">
+			<img src="img/io.jpg" alt="That's me" width="125" height="*">
+		</div>
+
+	<div class="paragraph" id="aboutme">
+		<h1>
+			About me
+		</h1>
+
+I am a postdoctoral researcher working remotely for the <i>Hebrew University of Jerusalem</i> on numerical cosmology
+and Machine Learning applications to astrophysical data.
+<br><br>
+In the past, I worked as a postdoctoral fellow 
+at the <i>Astrophysikalisches Institut Potsdam (AIP)</i> in <b>Potsdam</b>, between 2018 and 2020 and at the
+<i>Racah Institute of Physics, Hebrew University</i> in <b>Jerusalem</b>, between October 2014 and October 2017. 
+<br><br>
+I obtained my Ph.D from the <i>Universidad Autonoma</i> in <b>Madrid</b> in May 2014, where I also worked as a teaching assistant between 2010 and 2013.
+<br><br>
+I graduated in Physics (BSc) and Theoretical Physics (MSc) at the <i>Universita' degli Studi Roma 3</i>, <b>Rome</b>.
+I have been a visiting graduate student at the <i>Heidelberg University</i>, <b>Germany</b> and the <i>Syndey University</i>, <b>Australia</b>.
+<br><br>
+I am a member of the <a href="http://www.clues-project.org/" target="_blank">CLUES</a> collaboration, 
+working on the reconstruction of the Initial Conditions of the local Universe using galaxy peculiar velocity data. 
+<br><br>
+For more informations please refer to my <a href="files/curriculum.pdf" target="_blank">CV</a>, the <a href="projects.html" target="centerframe">
+projects</a> page of this webpage, my <a href="https://github.com/EdoardoCarlesi/" target="_blank">GitHub repositories</a>, 
+or my <a href=https://scholar.google.it/citations?user=MKsEW64AAAAJ&hl=it&oi=ao target='_blank'>Google Scholar Profile</a>.
+
+<br>
+<br>
+<div class="footlink">
+<a href="#navbar">[BACK]</a>
+</div>
+	</div>
+
+
+		<div class="sidefig">
+			<img src="img/simu_test.png" alt="A cosmological simulation snapshot" width="125" height="*">
+		</div>
+
+	<div class="paragraph" id="projects">
+		<h1>
+			Projects
+		</h1>
+In the past years, I have been working on several different topics in theoretical cosmology, focusing on the computational and numerical aspects of the problems. 
+This involved the modification and extension of existing codes as well as the development and design of new software tools. 
+<br>
+In particular, I am (have been) working on:
+<br>
+<br>
+<b>Machine Learning</b> applied to cosmological simulations. I am developing <a href="https://github.com/EdoardoCarlesi/MLEKO.git" target="_blank">MLEKO</a> 
+(Machine Learning Environment for KOsmology), a code that relies on popular ML libraries (<i>scikit-learn, TensorFlow, PyTorch</i>) for astrophysical data analysis. 
+In particular, I have used
+supervised learning methods (<i>decision trees, random forest, gradient boosted trees, artificial feed-forward neural networks...</i>) to infer dynamical properties
+of the Local Group of galaxies from simulations. I am also applying unsupervised learning algorithms (<i>k-means</i> and <i>Self Organizing Maps</i>) for 
+parameter-free classification in the cosmic web, and convolutional neural networks for pattern detection in the simulations' initial conditions.
+
+<br>
+<br>
+<b>Constrained simulations</b> of the local Universe, 
+working on the generation of constrained Initial Conditions with the software tools
+<em>Ginnungagap</em> and <em>IceCore</em> (for which I have developed an MPI-parallel version). Within the CLUES collaboration
+I designed the so-called <a href="http://arxiv.org/abs/1602.03919" target="_blank">Local Group Factory</a>, 
+a numerical pipeline to simulate Local Group-like objects within a large scale environment that matches current observations.
+I am developing and mantaining the code <a href="https://github.com/EdoardoCarlesi/PyRCODIO" target="_blank">PyRCODIO</a> which
+I am using for simulation analysis and post-processing.
+<br>
+<br>
+<b><i>N-</i>body and hydro simulations</b> of non-standard cosmologies such as Quintessence, Coupled and Vector Dark Energy models.
+This was the bulk of my PhD Thesis, during the course of which I developed a customized version of the popular <em>GADGET-2</em> code.
+(<a href="files/thesis_phd.pdf" target="_blank">PhD Thesis</a>)
+<br>
+<br>
+<b>Parameter space constraints</b> of Coupled Neutrino-Dark Energy models using the Boltzmann code <em>CMBEASY</em> and MonteCarlo Markov Chain methods.
+(<a href="files/thesis_master.pdf" target="_blank">Master Thesis</a>)
+<br>
+<br>
+
+<div class="footlink">
+<a href="#navbar">[BACK]</a>
+</div>
+
+	</div>
+
+
+
+		<div class="sidefig">
+			<img src="img/diff.png" alt="Another cosmological snaphot picture" width="125" height="*">
+		</div>
+
+	<div class="paragraph" id="resources">
+		<h1>
+			Resources
+		</h1>
+Below you can find a selected collection of presentations, articles and videos mainly related to my activity as an astrophysicist, 
+including technical as well as outreach material for the general public. A playlist with most of the interviews I gave for Nanowar Of Steel
+can be found on <a href="https://www.youtube.com/watch?v=3yI2Gk-A6EE&list=PLGVZfJq_FnjFt_ca7QREBV3yHor9qBCaJ" target="_blank">YouTube</a>
+<br>
+<br>
+<b>03-04/2020</b> My lecture series for the general public (in Italian) <em>L'Universo Spiegato at Alberto Tomba</em>
+(<a href="https://www.youtube.com/playlist?list=PLPabInzKMqf8-vti8lfM0ClakUXAZYLWw" target="_blank">YouTube</a>)
+<br>
+<br>
+<b>06/11/2019</b> A presentation I gave at the AIP Kafeerunde in Potsdam, <b>Germany</b> on the topic <em>From Astronomy to Music</em>
+(<a href="files/from_astronomy_to_music_AIP.pdf" target="_blank">PDF</a>)
+<br>
+<br>
+<b>31/10/2019</b> An article about my research on <em>Forbes</em>
+(<a href="files/forbes_2019.pdf" target="_blank">PDF</a>, 
+<a href="files/https://www.forbes.com/sites/brucedorminey/2019/10/31/milky-way-was-heavily-influenced-by-environment-in-which-it-formed/?sh=2016853c3440" 
+target="_blank">Link</a>)
+<br>
+<br>
+<b>09/07/2018</b> Nature Astronomy paper I co-authored <em>The Quasi-linear nearby Universe</em>
+(<a href="files/CF2_QL_NatAst_arxiv.pdf" target="_blank">PDF</a>)
+<br>
+<br>
+<b>19/05/2016</b>, Seminar at the <em>Beogradska Astronomska Opservatorija</em> in Beograd, <b>Serbia</b>, on the topic 
+<em>Obrnuti in&#382;enjering Lokalnog Univerzuma</em>
+(<a href="files/beograd.pdf" target="_blank">PDF</a>)
+<br>
+<br>
+<b>11/05/2016</b>, Presentation for the general public on the subject <em>Galei hakvida ve torat hayakhasut haklalit shel Einstein</em> in Jerusalem, <b>Israel</b>, 
+for the group <em>20 zot hatkhalah</em>
+(<a href="files/gr_einkerem.pdf" target="_blank">PDF</a>, <a href="files/gr_einkerem.jpg" target="_blank">Flyer</a>).
+<br>
+<br>
+<b>22/10/2015</b>, Seminar at <em>Universita' La Sapienza</em>, Roma, <b>Italy</b>, 
+on the topic <em>Reverse engineering the (local) Universe</em>
+(<a href="files/roma.pdf" target="_blank">PDF</a>)
+<br>
+<br>
+<b>22/08/2014</b>, Invited talk at the <em>CLUES Meeting</em>, Potsdam, <b>Germany</b>, 
+on the topic <em>The MergerTree MPI Code</em>
+(<a href="files/MergerTreeMPI.pdf" target="_blank">PDF</a>)
+<br>
+<br>
+<b>05/09/2013</b>, Contributed talk at the <em>PACIFIC 2013 Symposium</em>, Moorea, <b>French Polinesia</b>, 
+on the topic <em>The imprints of quintessence dark energy on the cosmic web and galaxy clusters</em>
+(<a href="files/carlesi_pacific2013.pdf" target="_blank">PDF</a>)
+<br>
+<br>
+<b>22/12/2011</b>, Interview on <em>The New Scientist</em> about the influence of dark energy on old massive galaxy clusters
+(<a href="https://www.newscientist.com/article/dn21315-variable-dark-energy-could-explain-old-galaxy-clusters/
+" target="_blank">Link</a>, <a href="files/new_scientist_interview.pdf" target="_blank">PDF</a>)
+<br>
+<br>
+<b>02/09/2011</b>, Contributed talk at the <em>Azores Summer School on Observational Cosmology</em>, Angra do Heroismo, <b>Portugal</b>, on the topic
+<em>Massive high-z clusters and alternative cosmological models</em>
+(<a href="files/Azores_Carlesi.pdf" target="_blank">PDF</a>)
+		<br><br>
+<div class="footlink">
+<a href="#navbar">[BACK]</a>
+</div>
+
+	</div>
+
+
+
+
+		<div class="sidefig">
+			<img src="img/tomba.png" alt="L'Universo Spiegato ad Alberto Tomba" width="125" height="*">
+		</div>
+
+	<div class="paragraph" id="podcast">
+		<h1>
+			Podcast
+		</h1>
+		This is work in progress!
+		<br><br>
+		<br><br>
+		<br><br>
+		<br><br>
+		<br><br>
+<div class="footlink">
+<a href="#navbar">[BACK]</a>
+</div>
+
+	</div>
+
+
+
+
+		<div class="sidefig">
+			<img src="img/aknight.png" alt="A Knight at the Opera by Nanowar Of Steel" width="125" height="*">
+		</div>
+
+	<div class="paragraph" id="extra">
+		<h1>
+			Extra
+		</h1>
+I am the founder, manager and bass-payer of the parody metal band 
+<a href="http://www.nanowar.it" target="_blank">Nanowar Of Steel</a>, which is active since 2003 with
+hundres of shows in Italy and Europe, five albums, a live DVD,  
+thousands of copies sold, 15+ million of streams on Spotify and 30+ millions of views on YouTube; 
+currently signed to Napalm Records. You can check us out on <a href="http://www.youtube.com/nanowarVEVO" target="_blank">YouTube</a>
+and on <a href="http://www.facebook.com/nanowarofsteel" target="_blank">Facebook</a>.
+<br><br>
+I also like foreign languages, besides Italian and English I am fluent in Spanish and Serbo-Croatian; 
+I have a good command of German, French, Russian, modern Hebrew and Arabic (mainly Levantine dialect but also MSA).
+I can have meaningful conversations in Portuguese and at the moment I am learning Mandarin Chinese.
+<br><br>
+In what's left of my spare time, I enjoy reading as much as possible about Machine Learning and Artificial Intelligence, 
+economics and finance and history (breakup of Jugoslavija, former Soviet Union and modern Middle East in particular).
+<br><br>
+My philosophical and religious views are summarized in this paper: <a href="http://vixra.org/abs/1704.0001" target="_blank">Foundations of Gauge Theology</a>.
+		<br><br>
+<div class="footlink">
+<a href="#navbar">[BACK]</a>
+</div>
+
+
+	</div>
+
+
+		<div class="sidefig">
+			<img src="img/mail.jpg" alt="Get in touch!" width="125" height="*">
+		</div>
+
+	<div class="paragraph" id="contacts">
+		<h1>
+			Contacts
+		</h1>
+		
+		If for any reason whatsoever you feel compelled to get in touch with me <b> please do so</b>
+		using any of the links you can find at the bottom of this page.
+		<br>
+		<br>
+		Good old fashioned email is still the best option - you can drop me a line at:
+		<br>		<br>
+		<i> gatto @ nanowar . it </i>
+		<br>		<br>
+		Please specify whether you're getting in touch with me through this site, just so I know someone is having
+		a look at it at all.
+		<br><br>
+		By the way - you can probably tell from the low quality of these pages that I wrote the <i>HTML/CSS</i>
+		code myself. 
+		I did it on a Linux (Kubuntu) terminal using what is by far the best IDE/Text Editor on Earth 
+		: 	<a href="https://www.vim.org/" target="">Vim</a>
+		<br>
+		(I know it's technically not an IDE, but still)
+		<br><br>
+		This website is proudly hosted (as you might have guessed) on <a href="http://github.com" target="_blank">GitHub</a>, 
+		which is most likely the only <i>Microsoft</i>-related tool I've used in the last decade.
+		<br><br><br><br>
+	
+	</div>
+	<div class="foot">
+		<a href="http://www.instagram.com/gattopanceri666" target="_blank">
+		<img src="img/ig.png" width="*" height="50">
+		</a>
+		<a href="http://www.facebook.com/gattopanceri666" target="_blank">
+		<img src="img/fb.png" width="*" height="45">
+		</a>
+		<a href="https://www.linkedin.com/in/edoardo-carlesi-61678764/" target="_blank">
+		<img src="img/li.png" width="50" height="*">
+		</a>
+		<a href="http://www.youtube.com/gattopanceri666" target="_blank">
+		<img src="img/yt.png" width="50" height="*">
+		</a>
+		<a href="https://open.spotify.com/user/11131478077" target="_blank">
+		<img src="img/sp.png" width="50" height="*">
+		</a>
+		<a href="mailto:gatto@nanowar.it" target="_blank">
+		<img src="img/mail.png" width="50" height="*">
+		</a>
+	</div>
+
+	<div class="footlink">
+	<a href="#navbar">[BACK]</a>
+	</div>
+
+		
+	
+
+	<!-- The main "paragraphs" div ends here -->
+	</div>
+
+
+</body>
 </html>
