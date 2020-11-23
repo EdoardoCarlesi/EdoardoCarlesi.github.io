@@ -2,64 +2,50 @@ body {
 	background: url("../img/h_back.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	/*
-	background-color: black;
-	 * text-align: center;
-	color: white;
-	 * */
 	font-family: 'Josefin Sans', sans-serif;
 }	
 
 table {
-	margin-left: 10%;
-	margin-right: 10%;
-	width: 80%;
+	margin-left: 12%;
+	margin-right: 12%;
+	width: 75%;
 	border: 5px white;
 	font-size: 16pt;
 	color: black;
 }
 
 h1 {
-	/*
-	margin-top:10%;
-	color: white;
-	background-color: white; 
-	text-transform: uppercase;
-	 * width: 60%;*/
 	font-size: 15pt;
 	text-align: left;
-	color: black; 
-	background-color: rgb(40, 40, 40, 0.6);
+	color: white; 
+	background-color: rgb(0, 0, 0, 1.0);
 	font-variant: small-caps;
 }
 
 a.nav {
-	color: black; 
-	font-size: 15pt;
+	background-color: black;
+	color: white; 
+	font-size: 20pt;
 	font-style: bold;
 	font-variant: small-caps;
 	text-align: center;
-	text-decoration: none;
 }
 
 
 a {
 	color: rgb(10, 10, 100);
-	/*font-size: 13pt;*/
 	font-style: bold;
 	font-variant: small-caps;
-	text-align: center;
-	text-decoration: none;
 }
 
 a:visited {
+	/* change color just in case */
 	font-style: bold;
-	text-align: center;
-	text-decoration: none;
 	font-variant: small-caps;
 }
 
 a:hover {
+	/* change color just in case */
 	color: red;
 	font-style: bold;
 	/*background-color: rgb(40, 40, 40, 0.8);*/
@@ -72,11 +58,8 @@ a:hover {
 }
 
 .bar{
-	/*margin-right: 20%;
-	margin-left: 20%;
-	position:absolute;*/
 	font-size: 20px;
-	background-color: rgb(40, 40, 40, 0.5);
+	background-color: rgb(0, 0, 0, 1.0);
 	margin-bottom: 5%;
 }
 
