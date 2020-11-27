@@ -77,12 +77,21 @@ a:hover {
 	text-align: left;
 }
 
-
-.footlink {
-	margin-top:5px;
-	text-align:center;
-	margin-bottom:20px;
+/* Style all font awesome icons */
+.fa {
+  margin-top: 10px;
+  padding: 5px;
+  font-size: 20px;
+  width: 30px;
+  color: white;
+  background-color: black;
 }
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.8;
+}
+
 
 .sidefig {
 	margin-left:5px;

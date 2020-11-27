@@ -34,7 +34,7 @@ a.nav {
 
 
 a {
-	color: white; 
+	color: black; 
 	font-style: bold;
 	font-variant: small-caps;
 }
@@ -53,7 +53,6 @@ a:hover {
 }
 
 .foot {
-	text-align: center;
 	margin-bottom:5%;
 	font-style: italic;
 }
@@ -79,11 +78,19 @@ a:hover {
 	text-align: left;
 }
 
+/* Style all font awesome icons */
+.fa {
+  margin-top: 10px;
+  padding: 5px;
+  font-size: 20px;
+  width: 30px;
+  color: white;
+  background-color: black;
+}
 
-.footlink {
-	margin-top:5px;
-	text-align:center;
-	margin-bottom:40px;
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.8;
 }
 
 .sidefig {
